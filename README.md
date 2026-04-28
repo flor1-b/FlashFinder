@@ -1,50 +1,90 @@
-# Welcome to your Expo app 👋
+<img src="assets/images/ff-logo-white-transparent-crop.png" >
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+# FlashFinder
 
-## Get started
+Flash Finder is a mobile application developed for the tattoo industry, combining social interaction
+and appointment booking within a single platform. 
 
-1. Install dependencies
+---
 
-   ```bash
-   npm install
-   ```
+The platform is designed for two user roles:
 
-2. Start the app
+- **Artists** - Can manage their availability, confirm appointment requests, showcase tattoo designs and healed work to exclusive galleries
+- **Clients** - Can browse profiles, follow artists, send messages, request appointments and post to the main feed. 
 
-   ```bash
-   npx expo start
-   ```
+## Tech Stack
+FlashFinder was built using the following: 
+- **React Native**
+- **Expo**
+- **JavaScript**
+- **Supabase**
+  - Authentication
+  - PostgreSQL Database
+  - Storage
+  - Row Level Security (RLS)
+### Development / Testing Tools
+- **Android Studio**
+- **GenyMotion**
 
-In the output, you'll find options to open the app in a
+---
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## Main Features
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+### Authentication and Role-Based Access
+- Sign up and login system using Supabase Authentication 
+- Two user roles: **Artist** and **Client**
+- Role-based feature visibility for exclusive artist features
 
-## Get a fresh project
+<p float="left">
+   <img src="assets/screenshots/WelcomePage.jpg" width="180">
+   <img src="assets/screenshots/SignUp.jpg" width="180">
+   <img src="assets/screenshots/Login.jpg" width="180">
+</p>
 
-When you're ready, run:
+### Profile Management
+- Editable user profiles
+- Profile picture uploading 
+- Artist and Client profile browsing 
 
-```bash
-npm run reset-project
-```
+<p float="left">
+   <img src="assets/screenshots/Profile.jpg" width="180">
+   <img src="assets/screenshots/EditProfile.jpg" width="180">
+</p>
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+## Artist Features
+- Availability Calendar
+- Flash Feed to promote flash designs (Premade Tattoo Designs), to followers
+- Healed Gallery for completed healed tattoo work 
+- Dedicated posting options for artist content 
 
-## Learn more
+<p float="left">
+   <img src="assets/screenshots/CalendarEdit.jpg" width="180">
+   <img src="assets/screenshots/FlashFeed.jpg" width="180">
+</p>
 
-To learn more about developing your project with Expo, look at the following resources:
+## Messaging and Booking 
+- Direct messaging between users
+- Appointment requests linked to artist availability
+- Artist booking approval and decline workflow 
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+<p float="left">
+   <img src="assets/screenshots/Messaging.jpg" width="180">
+   <img src="assets/screenshots/Appointments.jpg" width="180">
+</p>
 
-## Join the community
+## Notifications and Search
+- Notification page to display like and follow interactions 
+- Search for users and posts
 
-Join our community of developers creating universal apps.
+<p float="left">
+   <img src="assets/screenshots/Notifications.jpg" width="180">
+   <img src="assets/screenshots/Search.jpg" width="180">
+</p>
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+# Access
+
+This repository contains the source code for FlashFinder.
+The application depends on external Supabase environment variables, which are not included in this public submission.
+
+For demonstration and marking, the intended access method is through the **Expo Go preview build / QR code** provided seperately. 
+
