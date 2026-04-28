@@ -34,11 +34,13 @@ FlashFinder was built using the following:
 - Sign up and login system using Supabase Authentication 
 - Two user roles: **Artist** and **Client**
 - Role-based feature visibility for exclusive artist features
+- Home page showcasing interactable posts from all user types 
 
 <p float="left">
    <img src="assets/screenshots/WelcomePage.jpg" width="180">
    <img src="assets/screenshots/SignUp.jpg" width="180">
    <img src="assets/screenshots/Login.jpg" width="180">
+   <img src="assets/screenshots/Home.jpg" width="180">
 </p>
 
 ### Profile Management
